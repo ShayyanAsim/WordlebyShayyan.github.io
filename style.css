@@ -1,0 +1,249 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  border-style: solid;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-color: lightgrey;
+}
+
+h1 {
+  font-size: 60px; /* adjust this value to the desired font size */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  margin: 0;
+  flex-grow: 1;
+  margin-left: 200px;
+}
+
+button {
+  width: 75px;
+  height: 75px;
+  justify-content: space-between;
+  background: none;
+  border: none;
+
+}
+.dark-mode button{
+  color: white;
+}
+
+#btn1 {
+  margin-right: 50px;
+  font-size: 2rem;
+}
+
+body {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: rgb(56, 58, 58);
+  color: white;
+}
+
+#btn2 {
+  margin-right: 50px;
+  font-size: 2rem;
+}
+
+#In {
+  margin-right: 50px;
+  font-size: 2rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 450px;
+  margin-right: 100px;
+}
+#grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 400px;
+  height: 285px;
+}
+
+#grid.dark-mode div {
+  background-color: rgb(56, 58, 58);
+  color: white;
+}
+
+#grid div {
+  
+  width: 100px;
+  border-style: solid;
+  height: 100px;
+  border: 1px solid lightgray;
+  box-sizing: border-box;
+}
+
+.start-over {
+  margin-top: 154px;
+  background-color: green;
+  padding: 28px 110px;
+  border: solid 10px green;
+  border-style: solid;
+  color: white;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+  display: flex;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  justify-content: center;
+  margin-right: 82px;
+}
+
+
+
+
+#Info {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#Info.show {
+  display: flex;
+  
+}
+
+.tile{
+  border: 5px solid lightgray;
+  border-style: solid;
+  width:90px;
+   
+  
+  height:95px;
+  margin: 1px;
+  margin-top: 0px;
+  color:black;
+
+  font-size: 36px;
+  font-weight: bold;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.correct {
+  background-color: green;
+}
+
+.present{
+  background-color: yellow;
+}
+
+.absent{
+  background-color: gray;
+}
+
+.bottom {
+  font-size: 20px;
+  position: fixed;
+  bottom: 100px;
+  width: 100%;
+  height: 50px;
+  border-style: solid;
+  text-align: center;
+}
+
+#congrats-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+#instructions-list {
+  display:flex;
+  font-size: 25px;
+  border-left: 4px solid lightgray; /* Increase the border width */
+  text-indent: 1%;
+  border-top: 4px lightgrey;
+  border-right: 0px;
+  border-bottom: 4px lightgray;
+  border-style: solid;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  height: 700px;
+  width: 600px;
+  position: absolute;
+  top:150px;
+  right: 0;
+  padding: 30px;
+}
+
+
+#instructions-container {
+ 
+  
+  flex-wrap: 5;
+  justify-content: center; /* Align items to the left */
+  align-items: center;
+  margin: left;
+  height: 200%;
+  width: 100%;
+  padding-left: 20px; /* Add left padding to align with list items */
+}
+
+
+#instruc{
+  text-align:left;
+  margin-bottom: 29px;
+  border-right: 0px;
+  border-left: 0px;
+  border-top: 0px;
+  border-bottom: 1px;
+  border-style: solid;
+  margin-right: 19px;
+}
+
+#remove{
+  visibility:hidden;
+}
+
+#my{
+  zoom:50%;
+}
+
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Wordle</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    
+
+    <div class="top">
+      <h1>Wordle</h1>
+      <button id="btn1" onclick="document.body.classList.toggle('dark-mode'); this.blur()">&#9681;</button>
+      <button id="btn2">&#63;</button>
+      <button id="In">&#9432;</button>
+    </div>
+    <div class="bottom">
+      <p id="hint"></p>
+    </div>
+
+    <div class="bottom" id="message"></div>
+
+
+    <img id="congrats-img" src="https://res.cloudinary.com/mkf/image/upload/v1675467141/ENSF-381/labs/congrats_fkscna.gif">
+
+    
+
+    <div class="container">
+      <div id="grid">
+      </div>
+      <button class="start-over">Start Over</button>
+    </div>
+
+    
+
+    <div id="instructions-container">
+      <ul id="instructions-list">
+        <h1 id="instruc">How to Play</h1>
+        <li>Start typing.The letters will appear in the boxes</li>
+        <li id="remove"></li>
+        <li>Remove letters with backspace</li>
+        <li id="remove"></li>
+        <li>Hit Enter/Return to submit the answer</li>
+        <li id="remove"></li>
+        <li>Letters with green background are in the right spot</li>
+        <li id="remove"></li>
+        <li>Letter with yellow background exist in the world, but are in the wrong spot.</li>
+        <li id="remove"></li>
+        <li>Letters with gray background do not exist in the word</li>
+        <li id="remove"></li>
+        <li>If you need a hint, click the <b>?</b> icon. It will show at the bottom of the page.</li>
+        <li id="remove"></li>
+        <li>If you press enter unnecessarily before completing the word you will lose a chace.</li>
+        <li id="remove"></li>
+        <li>To close this press the <b>i</b> button again.</li>
+      </ul>
+    </div>
+
+   
+
+    
+    
+
+    <footer>
+      <p>@ShayyanAsim2023</p>
+    </footer>
+    <script src="./wordle.js"></script>
+  </body>
+</html>
+
